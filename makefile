@@ -10,10 +10,8 @@ pdf :
 	mv tmp contactInfo.local.txt
 
 publish :
-	cp $(filename).pdf tmp
 	xelatex $(filename).tex
-	mv $(filename).pdf published_cv_$(ts).pdf
-	mv tmp $(filename)
+	# mv $(filename).pdf published_cv_$(ts).pdf
 
 clean :
 	rm *.aux *.log *.out
