@@ -52,7 +52,9 @@
     }}
     \hfill
     \raggedleft{\parbox[b]{32em}{
+	    	\centering
 		\color{headings}\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Lig}\fontsize{15pt}{14pt}\selectfont #4 \\
+		\flushleft
 		\color{headings}\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Lig}\fontsize{11pt}{14pt}\selectfont #5
         	}
     	}
