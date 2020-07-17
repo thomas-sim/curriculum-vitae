@@ -22,7 +22,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Thomas}{SIMATIC}
-{23 ans - Nationalité Française}
+{23 ans}
 {Ingénieur en Génie Informatique \\Systèmes Temps Réel, Informatique Enfouie, Web}
 {\input{contactInfo.local.txt}}
     
@@ -41,16 +41,17 @@
 \location{Programmation :}
 C, C++, Python, Micropython\\ 
 
-\location{Web :}
-HTML5/CSS, React, NodeJS, PHP
-\location{Modélisation \& base de données :}
-UML, SQL (PostgreSQL \& MySQL)\\
-
 \location{Design de PCB :}
 KiCad
 
+\location{Web :}
+HTML5/CSS, React, NodeJS, PHP
+
+\location{Modélisation \& base de données :}
+UML, SQL (PostgreSQL \& MySQL)\\
+
 \location{Outils :}
-Vim, Git, \LaTeX
+(Neo)Vim, Git, \LaTeX
 
 \location{Multimédia :}
 Reaper, Audacity, Gimp, Premiere
@@ -61,7 +62,7 @@ Français (langue maternelle), \\
 Anglais (courant), \\
 Allemand (B2),\\
 
-Formation \& Concours Fleur d'Éloquence (finaliste en 2017).
+Formation \& Concours Fleur d'Eloquence (2015 \& 2017).
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -138,7 +139,7 @@ Cirque - Monocycle, Slackline
 \position{Ingénieur d'Intégration Hardware}{Paris}
     \vspace{0.9em} % Hacky fix for awkward extra vertical space (only necessary on first item)
 \begin{tightemize}
-\item R\&D sur les capacités sans-fil de l'ESP32, développement de modules Micropython (C embarqué, Python)
+\item Recherche sur les capacités sans-fil de l'ESP32, développement de modules Micropython (C embarqué, python)
 \item Design de cartes électroniques avec de fortes contraintes de compacité et de connectivité sous KiCad, gestion des achats de matériel et production manuelle des prototypes.
 \end{tightemize}
 \sectionsep
@@ -177,28 +178,15 @@ Cirque - Monocycle, Slackline
 % \sectionsep
 
 
-\section{Autres projets}
-\runsubsection{Oriog Créations}
-\descript{depuis 2017 - Vice-président et webmaster}
-Association de création de saga radiophoniques et promouvant la représentation de minorités (notamment LGBT) dans la fiction.\\
-Gestion du serveur VPS de l'association, du site wordpress et création de sites vitrines.
-
+\section{Projets Universitaires}
 \runsubsection{Véhicules Intelligents}
-\descript{2017 - Recherche en laboratoire (HEUDIASYC)}
-(Projet universitaire) Migration de modules PACPUS vers ROS pour un suivi autonome d'un véhicule par un autre.
+\descript{Travail de Laboratoire (HEUDIASYC)}
+Migration de modules PACPUS vers ROS pour un suivi autonome d'un véhicule par un autre.
 
-\runsubsection{Analyse d'Images}
-\descript{2017 - Intelligence Artificielle}
-(Projet universitaire) Détecteur de visage par réseau de neurones, avec utilisation d'un classificateur SVM et d'une fenêtre glissante.
 
 \runsubsection{My Atmega}
-\descript{2015 - Design de Processeur en VHDL}
-(Projet universitaire) Clône d'un micro-processeur Atmega 8.
-
-\runsubsection{Comédie Musicale de l'UTC }
-\descript{2015 - \'{E}criture et Mise en Scène}
-Comédie Musicale entièrement créée par des étudiants et produite au Théâtre Impérial de Compiègne. \\
-Management de la troupe de théâtre et coordination du reste de l'équipe (80 étudiants).
+\descript{Design de Processeur}
+Clône en VHDL d'un micro-processeur Atmega 8.
 
 
 % \runsubsection{Sciences Cognitives}
@@ -206,16 +194,29 @@ Management de la troupe de théâtre et coordination du reste de l'équipe (80 �
 % Expérimentations et étude des résultats sur le croisement perceptif.
 
 
-%\runsubsection{Kami}
-%\descript{Réalité Virtuelle}
-%Jeu vidéo codé pour Oculus Rift \& Leap Motion avec Unity 3D. \\
+\runsubsection{Kami}
+\descript{Réalité Virtuelle}
+Jeu vidéo codé pour Oculus Rift \& Leap Motion avec Unity 3D. \\
 %\faCaretRight \href{youtu.be/lFnLHkYR3sw}{  youtu.be/lFnLHkYR3sw}
 
 
+\runsubsection{Le Pokétâche}
+\descript{Programmation Orientée Objet}
+Logiciel de gestion de projet \& de tâches (C++ et Qt).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PROJECTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Projets extra-universitaires}
+\runsubsection{Oriog Créations}
+\descript{Vice-président et webmaster (depuis 2017)}
+Association de création de saga radiophoniques et promouvant la représentation de minoritées (notamment LGBT) dans la fiction.
+
+\runsubsection{Comédie Musicale de l'UTC }
+\descript{\'{E}criture et Mise en Scène (2015)}
+Comédie Musicale entièrement créée par des étudiants et produite au Théâtre Impérial de Compiègne. \\
+Management de la troupe de théâtre et coordination du reste de l'équipe (80 étudiants).
+
 
 % \runsubsection{Spectacle des Lumières de l'UTC}
 % \descript{Responsable "Corps" (2015)}

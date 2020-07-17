@@ -45,16 +45,18 @@
     % 1 - Name, 2 - family Name 3 - Nationality, 3 - Title, 5 - Contact infos
   \raggedright{\parbox[b]{15em}{
       \centering
-      \fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Lig}\fontsize{40pt}{0cm}\selectfont #1
-      \fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Lig}\fontsize{48pt}{0cm}\selectfont #2
+      \fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Lig}\fontsize{36pt}{5cm}\selectfont #1
+      \vspace{0.3em}
+      \fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Lig}\fontsize{44pt}{0cm}\selectfont #2
       \fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Lig}\fontsize{13pt}{0cm}\selectfont #3
     }}
     \hfill
     \raggedleft{\parbox[b]{32em}{
 		\color{headings}\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Lig}\fontsize{15pt}{14pt}\selectfont #4 \\
 		\color{headings}\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Lig}\fontsize{11pt}{14pt}\selectfont #5
-        }}
-   	\vspace{1.0em} 
+        	}
+    	}
+\vspace{0.4em} 
 }
 \titlespacing{\section}{0pt}{0pt}{5pt}
 

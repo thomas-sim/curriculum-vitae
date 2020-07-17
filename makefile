@@ -1,7 +1,7 @@
 filename = main
 ts := `/bin/date "+%Y-%m-%d---%H-%M-%S"`
 
-.PHONY: pdf publish clean
+.PHONY: pdf publish clean install
 
 pdf : 
 	cp contactInfo.local.txt tmp
@@ -15,3 +15,8 @@ publish :
 
 clean :
 	rm *.aux *.log *.out
+
+contactInfo.local.txt :
+	cp contactInfo.txt contactInfo.local.txt
+
+install : contactInfo.local.txt
