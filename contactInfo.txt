@@ -1,4 +1,4 @@
 \urlstyle{same}\faHome   Addresse Postale\\
-  \faEnvelope \href{mailto:thomas@simatic.org}{ thomas@simatic.org}\\
+  \faEnvelope (mon.prenom)@(mon.nom.de.famille).org\\
   \faPhone    Numéro de Téléphone\\
   \faGitSquare \href{https://git.souslesondes.fr/tami}{  git.souslesondes.fr/Tami}

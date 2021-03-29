@@ -2,14 +2,14 @@
 % Thomas Simatic / CV
 %
 % Reference:
-% Base template by Hieu Do 
+% Base template by Hieu Do
 % Debarghya Das (http://debarghyadas.com)
 
-%%% Local Variables: 
+%%% Local Variables:
 %%% coding: utf-8
 %%% mode: latex
 %%% TeX-engine: xetex
-%%% End: 
+%%% End:
 
 \documentclass[]{cv-template}
 
@@ -22,16 +22,16 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Thomas}{SIMATIC}
-{23 ans - Nationalité Française}
-{Ingénieur en Génie Informatique \\Systèmes Temps Réel, Informatique Embarquée, Web}
+{24 ans - Nationalité Française}
+{Ingénieur en Génie Informatique \\Web, Systèmes Temps Réel, Informatique Embarquée}
 {\input{contactInfo.local.txt}}
-    
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     COLUMN ONE
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{minipage}[t]{0.34\textwidth} 
+\begin{minipage}[t]{0.34\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
@@ -39,10 +39,10 @@
 \section{Compétences}
 % \subsection{Informatique}
 \location{Programmation :}
-C, C++, Python, Micropython\\ 
+Python, C, Javascript\\
 
 \location{Web :}
-HTML5/CSS, React, NodeJS, PHP
+HTML5/CSS, JQuery, React, PHP
 \location{Modélisation \& base de données :}
 UML, SQL (PostgreSQL \& MySQL)\\
 
@@ -58,7 +58,7 @@ Reaper, Audacity, Gimp, Premiere
 \sectionsep
 \subsection{\ Langues}
 Français (langue maternelle), \\
-Anglais (courant), \\
+Anglais (courant, 795 au TOEIC), \\
 Allemand (B2),\\
 
 Formation \& Concours Fleur d'Éloquence (finaliste en 2017).
@@ -67,7 +67,7 @@ Formation \& Concours Fleur d'Éloquence (finaliste en 2017).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Formation} 
+\section{Formation}
 
 \subsection[UTC (Université de Technologie de Compiègne)]{UTC (Université de Technologie\\ de Compiègne)}
 \descript{2012 à 2018 - Génie Informatique}
@@ -76,7 +76,7 @@ Erasmus à l'Ernst Abbe Hochschule (Jena, Allemagne) - System Design\\
 \sectionsep
 
 \subsection{Lycée Notre Dame de Sion}
-\descript{2012 - Bac S - Mention TB} 
+\descript{2012 - Bac S - Mention TB}
 \sectionsep
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -94,7 +94,8 @@ Erasmus à l'Ernst Abbe Hochschule (Jena, Allemagne) - System Design\\
 \section{Passions}
 Sport - Parkour, StreetWorkout \\
 Musique - Chant, Piano, Guitare\\
-Cirque - Monocycle, Slackline
+Cirque - Monocycle, Slackline\\
+Ecriture - Saga MP3
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -110,7 +111,7 @@ Cirque - Monocycle, Slackline
 % %     AWARDS
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% \section{Awards} 
+% \section{Awards}
 % Dean's List\\
 % NYU PROMISE Scholarship\\
 % Shelby C. Davis Scholarship\\
@@ -126,17 +127,25 @@ Cirque - Monocycle, Slackline
 %     COLUMN TWO
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\end{minipage} 
+\end{minipage}
 \hfill
-\begin{minipage}[t]{0.65\textwidth} 
+\begin{minipage}[t]{0.65\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Expérience professionnelle}
+\workplace{Sculpteo}{depuis Décembre 2020}\\
+\position{Ingénieur Fullstack}{Villejuif}
+    \vspace{0.9em} % Hacky fix for awkward extra vertical space (only necessary on first item)
+\begin{tightemize}
+\item Développement et maintenance du site web de Sculpteo en externe la commande de pièces à imprimer (plus de 1000 par jour) et en interne la gestion des flux de production de l'usine.
+\item Site basé sur le framework Django, front en JQuery
+\end{tightemize}
+\sectionsep
+
 \workplace{Ministère des Armées}{Mars 2018 - Février 2020}\\
 \position{Ingénieur d'Intégration Hardware}{Paris}
-    \vspace{0.9em} % Hacky fix for awkward extra vertical space (only necessary on first item)
 \begin{tightemize}
 \item R\&D sur les capacités sans-fil de l'ESP32, développement de modules Micropython (C embarqué, Python)
 \item Design de cartes électroniques avec de fortes contraintes de compacité et de connectivité sous KiCad, gestion des achats de matériel et production manuelle des prototypes.
@@ -144,20 +153,20 @@ Cirque - Monocycle, Slackline
 \sectionsep
 
 \workplace{Ministère des Armées}{Septembre 2017 - Février 2018}\\
-\position{Stagiaire - développement informatique}{Paris}
+\position{Stagiaire - Développement Embarqué}{Paris}
 % \vspace{0.9em} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item Intégration d'une caméra et d'une IP d'encodage H.264 sur une plateforme FPGA (VHDL)
 \end{tightemize}
 \sectionsep
 
-\workplace{Alterface Projects}{Février - Juillet 2016}\\
-\position{Stagiaire - développement informatique}{Wavre, Belgique}
-% \vspace{0.9em} % Hacky fix for awkward extra vertical space
-\begin{tightemize}
-\item Recherche d'une solution embarquée de Roaming Wi-Fi pour un système temps réel. Python, C embarqué (Atmel SAM4).
-\end{tightemize}
-\sectionsep
+% \workplace{Alterface Projects}{Février - Juillet 2016}\\
+% \position{Stagiaire - développement informatique}{Wavre, Belgique}
+% % \vspace{0.9em} % Hacky fix for awkward extra vertical space
+% \begin{tightemize}
+% \item Recherche d'une solution embarquée de Roaming Wi-Fi pour un système temps réel. Python, C embarqué (Atmel SAM4).
+% \end{tightemize}
+% \sectionsep
 
 % \workplace{Alterface Projects}{Juillet 2013} \\
 % \position{Stagiaire - Stage ouvrier interculturel}{Wavre, Belgique}
@@ -181,11 +190,11 @@ Cirque - Monocycle, Slackline
 \runsubsection{Oriog Créations}
 \descript{depuis 2017 - Vice-président et webmaster}
 Association de création de saga radiophoniques et promouvant la représentation de minorités (notamment LGBT) dans la fiction.\\
-Gestion du serveur VPS de l'association, du site wordpress et création de sites vitrines.
+Gestion du serveur VPS de l'association, du site wordpress et création de sites vitrines, animation de conférences.
 
 \runsubsection{Véhicules Intelligents}
 \descript{2017 - Recherche en laboratoire (HEUDIASYC)}
-(Projet universitaire) Migration de modules PACPUS vers ROS pour un suivi autonome d'un véhicule par un autre.
+(Projet universitaire) Programmation de voitures intelligentes (Zoé) pour l'enregistrement et le suivi de trajectoires en ROS (Python)
 
 %\runsubsection{Analyse d'Images}
 %\descript{2017 - Intelligence Artificielle}
@@ -202,7 +211,6 @@ Gestion du serveur VPS de l'association, du site wordpress et création de sites
 
 \runsubsection{Comédie Musicale de l'UTC }
 \descript{2015 - \'{E}criture et Mise en Scène}
-Comédie Musicale entièrement créée par des étudiants et produite au Théâtre Impérial de Compiègne. \\
 Ecriture de la pièce, management de la troupe de théâtre et coordination du reste de l'équipe (80 étudiants).
 
 
@@ -213,8 +221,8 @@ Ecriture de la pièce, management de la troupe de théâtre et coordination du r
 % \runsubsection{Spectacle des Lumières de l'UTC}
 % \descript{Responsable "Corps" (2015)}
 % Spectacle son \& lumière mêlant technique et arts de la scène. Recrutement \& coordination des Acteurs (Théâtre, Danse, Cirque\ldots)
-\sectionsep 
+\sectionsep
 
-\end{minipage} 
+\end{minipage}
 
-\end{document}  
+\end{document}
